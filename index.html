@@ -20,7 +20,7 @@
         <a href="https://github.com/ZTGeng/">My GitHub</a>
     </canvas>
     <footer>
-        <p>&copy; Copyright by Geng</p>
+        <p>&copy; Copyright by Ismail</p>
     </footer>
     <script>
         var canvas = document.getElementById('canvas');
@@ -68,12 +68,12 @@
             ctx.fill();
             ctx.stroke();
             ctx.fillStyle = "rgb(0,0,0)";
-            ctx.fillText("ZHITAO", x - r * 0.8, y, r * 2);
-            ctx.fillText("GENG", x - r * 0.8, y + 20, r * 2);
+            ctx.fillText("Ismail", x - r * 0.8, y, r * 2);
+            ctx.fillText("Hashi", x - r * 0.8, y + 20, r * 2);
         };
 
         ctx.font = "20px Arial";
-        var cv = new Circle(250, 200, circleR, "CV", "cv.html");
+        var cv = new Circle(250, 200, circleR, "Projects", "cv.html");
         circles.push(cv);
         var game = new Circle(150, 400, circleR, "Game", "games/index.html");
         circles.push(game);
@@ -81,6 +81,8 @@
         circles.push(math);
         var git = new Circle(600, 350, circleR, "Github", "https://github.com/ZTGeng/");
         circles.push(git);
+        var skills = new Circle(600, 350, circleR, "Skills", "https:/TGeng/");
+        circles.push(skills);
 
         var move = function() {
             ctx.clearRect(0, 0, width, height);
@@ -107,7 +109,7 @@
         };
         turn();
 
-        setInterval(move, 75);
+        setInterval(move, 10);
         setInterval(turn, 3000);
 
         canvas.addEventListener("mousemove", function(event) {
