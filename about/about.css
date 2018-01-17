@@ -1,0 +1,68 @@
+
+body {
+  font-family: 'Open Sans', monospace;
+}
+
+p {
+  font-size: 1.24em;
+}
+
+
+.background {
+  background-color: #fdb3a6;
+  width: 99.5%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+.h1-name {
+  color: #b3f9f3;
+}
+
+.h1-greeting, .h1-name {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.div2 {
+  margin-top: 3.1em;
+}
+
+.info {
+  padding: 0.1em 0em;
+}
+
+.div_section {
+  margin-top: 7em;
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .main {
+    padding: 3.4em 7em;
+    padding-bottom: 3em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .main {
+    padding: 2em 1.5em;
+  }
+
+  .background {
+    width: 97%;
+  }
+}

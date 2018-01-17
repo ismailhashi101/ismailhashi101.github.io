@@ -1,0 +1,76 @@
+
+body {
+  font-family: 'Open Sans', monospace;
+}
+
+p {
+  font-size: 2.5em;
+}
+
+.background {
+  background-color: blanchedalmond;
+  width: 99.5%;
+  height: auto;
+  margin: 1em auto;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+.h1-name {
+  color: #67c1a0;
+}
+
+.h1, .h1-name {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.project-section {
+  margin-top: 4.6em;
+}
+
+.h2-title {
+  font-size: 28px;
+}
+
+.ul {
+  padding-left: 0px;
+  font-size: 19px;
+  list-style: none;
+}
+
+.li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0.4em 0em;
+}
+
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  .main {
+    padding: 3.2em 7em;
+    padding-top: 2em; 
+    padding-bottom: .8em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .main {
+    padding: 2em 1.5em;
+  }
+
+  .background {
+    width: 97%;
+  }
+}
