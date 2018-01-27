@@ -4,11 +4,11 @@ body {
 }
 
 p {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .background {
-  background-color: blanchedalmond;
+  background-color: #ffebcdc4;
   width: 99.5%;
   height: auto;
   margin: 1em auto;
@@ -29,7 +29,7 @@ a:active,
 }
 
 .project-section {
-  margin-top: 4.6em;
+  margin-top: 4em;
 }
 
 .h2-title {
@@ -38,7 +38,7 @@ a:active,
 
 .ul {
   padding-left: 0px;
-  font-size: 19px;
+  font-size: 19.1px;
   list-style: none;
 }
 

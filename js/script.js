@@ -216,7 +216,7 @@
         circles.push(email);
         var linkedin = new Linkedin(350, 900, circleR, "Linkedin", "https://www.linkedin.com/in/ismailhashi"); 
         circles.push(linkedin);
-        var resume = new Resume(650, 500, circleR, "Resume", "ects.html");
+        var resume = new Resume(650, 500, circleR, "Resume", "");
         circles.push(resume);   
         
         var move = function() {
